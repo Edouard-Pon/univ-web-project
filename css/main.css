@@ -1,3 +1,6 @@
+@import "shared/header.css";
+@import "shared/footer.css";
+
 :root {
     font-size: 18px;
     background-color: white;
