@@ -1,0 +1,59 @@
+main {
+    background-color: darkgrey;
+    padding: 0 1rem 1rem 1rem;
+    border-radius: .25rem;
+}
+
+.page-title {
+    font-size: 2rem;
+    margin: 1.4rem 3rem 1.4rem 3rem;
+    text-decoration: underline #bbbbbb ;
+    text-underline-position: under;
+    text-decoration-thickness: .35rem;
+}
+
+.countries-grid {
+    width: 100%;
+    display: grid;
+    grid-gap: .8rem;
+    grid-template-columns: 100%;
+}
+
+.country {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 312px auto;
+    padding: 2.2rem;
+    border-radius: .25rem;
+    background-color: #bbbbbb;
+}
+
+.country:nth-of-type(even) {
+    direction: rtl;
+}
+
+.country-image {
+    width: 100%;
+    border-radius: .8rem;
+}
+
+.country-info {
+    padding: 1.4rem;
+    height: 100%;
+}
+
+.country-title {
+    font-size: 1.6rem;
+    margin-bottom: .8rem;
+}
+
+.country-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.country-info p {
+    font-size: 1rem;
+    text-indent: 1.25rem;
+    direction: ltr;
+}
