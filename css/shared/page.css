@@ -1,0 +1,28 @@
+main {
+    width: 85%;
+    background-color: darkgrey;
+    padding: 0 1rem 1rem 1rem;
+    border-radius: .25rem;
+}
+
+.page-title {
+    font-size: 2rem;
+    margin: 1.4rem 3rem 1.4rem 3rem;
+    text-decoration: underline #bbbbbb ;
+    text-underline-position: under;
+    text-decoration-thickness: .35rem;
+}
+
+.page-grid {
+    width: 100%;
+    display: grid;
+    grid-gap: .8rem;
+    grid-template-columns: 100%;
+}
+
+.subsection {
+    width: 100%;
+    padding: 2.2rem;
+    border-radius: .25rem;
+    background-color: #bbbbbb;
+}

@@ -1,5 +1,6 @@
 @import "shared/header.css";
 @import "shared/footer.css";
+@import "shared/page.css";
 
 :root {
     font-size: 16px;
@@ -31,8 +32,4 @@ body {
 img, picture, svg, video {
     display: block;
     max-width: 100%;
-}
-
-main {
-    width: 85%;
 }
