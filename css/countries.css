@@ -1,6 +1,6 @@
 .country-grid {
     display: grid;
-    grid-template-columns: 312px auto;
+    grid-template-columns: 17.5rem auto;
 }
 
 .country-grid:nth-of-type(even) {
