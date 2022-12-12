@@ -2,8 +2,9 @@
 @import "shared/footer.css";
 
 :root {
-    font-size: 18px;
-    background-color: white;
+    font-size: 16px;
+    background-color: #d9d9d9;
+    letter-spacing: 1px;
 }
 
 *, *::before, *::after{
