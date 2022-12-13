@@ -1,6 +1,7 @@
 @import "shared/header.css";
 @import "shared/footer.css";
 @import "shared/page.css";
+@import "shared/buttons.css";
 
 :root {
     font-size: 16px;
