@@ -16,18 +16,13 @@
     margin: 0 1rem 0 1rem;
 }
 
-.country-title {
-    font-size: 1.6rem;
-    margin-bottom: .8rem;
-    text-align: left;
-}
-
 .sub-content a {
+    font-size: 1.6rem;
     text-decoration: none;
     color: black;
 }
 
-.sub-content p {
+.sub-content {
     font-size: 1rem;
     text-indent: 1.25rem;
     direction: ltr;

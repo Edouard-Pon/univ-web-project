@@ -42,3 +42,8 @@ header {
     background-color: firebrick;
     color: white;
 }
+
+.header-nav img {
+    height: 100px;
+    width: 100px;
+}
