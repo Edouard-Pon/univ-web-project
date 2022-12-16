@@ -15,3 +15,24 @@
 .btn:hover {
     background-color: #bbbbbb;
 }
+
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 2%;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: darkgrey;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: .25rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#scrollToTop:hover {
+    background-color: #555;
+}
