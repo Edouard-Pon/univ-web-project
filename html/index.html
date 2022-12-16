@@ -6,18 +6,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CACTUS</title>
-    <link rel="icon" href="img/favicon-logo.ico">
-    <link id="main-css" rel="stylesheet" href="css/main.css">
-    <link id="index-css" rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="../img/favicon-logo.ico">
+    <script defer src="../js/scrollToTop.js"></script>
+    <script defer src="../js/changeStyle.js"></script>
+    <link id="main-css" rel="stylesheet" href="../css/main.css">
+    <link id="index-css" rel="stylesheet" href="../css/index.css">
+    <link id="theme-css" rel="stylesheet" href="../css/themes/theme-alpha.css">
 </head>
 <body>
 <header>
     <nav class="header-nav">
-        <a class="header-title" href="index.html"><img src="img/logo.png" alt="Our logo"></a>
+        <a class="header-title" href="index.html"><img src="../img/logo.png" alt="Our logo"></a>
         <ul>
-            <li><a href="html/countries.html">Countries</a></li>
-            <li><a href="html/our-choice.html">Our Choice</a></li>
-            <li><a href="html/about-us.html">About Us</a></li>
+            <li><a href="countries.html">Countries</a></li>
+            <li><a href="our-choice.html">Our Choice</a></li>
+            <li><a href="about-us.html">About Us</a></li>
         </ul>
     </nav>
 </header>
@@ -42,6 +45,7 @@
 </main>
 <footer>
     <h3>This is footer</h3>
+    <button onclick="changeStyle()" id="changePageStyleBtn" title="Change page style">Change Theme</button>
 </footer>
 </body>
 </html>
