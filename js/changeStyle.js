@@ -1,4 +1,4 @@
-let styles = ["theme-alpha"]
+let styles = ["theme-alpha", "theme-beta"]
 
 function setStyle(theme) {
     document.getElementById("theme-css").setAttribute("href", "../css/themes/"+theme+".css");

@@ -1,0 +1,22 @@
+:root {
+    background-color: #C8B88A;
+    background-image: url("../../img/beta-bg.webp");
+}
+
+main, .sub-content, footer, .header-nav, #scrollToTop, #changePageStyleBtn, .btn {
+    background-color: #96A85F;
+}
+
+.page-title {
+    text-decoration: underline #C8B88A;
+    text-underline-position: under;
+    text-decoration-thickness: .35rem;
+}
+
+.content, form input, form textarea {
+    background-color: #C8B88A;
+}
+
+.header-nav li a:hover, #scrollToTop:hover, #changePageStyleBtn:hover, .btn:hover {
+    background-color: #476930;
+}
