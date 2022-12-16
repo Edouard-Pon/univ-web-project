@@ -8,7 +8,7 @@ function changeStyle() {
     const currentStyle = document.getElementById("theme-css").getAttribute("href");
     const currentPage = window.location.pathname.split("/").pop();
     let themePath = "../css/themes/";
-    if (currentPage === "index.html") themePath = "css/themes/";
+    if (currentPage === "index.html" || currentPage === "") themePath = "css/themes/";
     for (let i = 0; i < styles.length; i++) {
 
         if (currentStyle === themePath+styles[i]+".css" && i === styles.length-1) {
