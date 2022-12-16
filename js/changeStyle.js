@@ -1,18 +1,22 @@
-let styles = ["theme-alpha", "theme-beta"]
+const styles = ["theme-alpha", "theme-beta"]
 
-function setStyle(theme) {
-    document.getElementById("theme-css").setAttribute("href", "../css/themes/"+theme+".css");
+function setStyle(theme, themePath) {
+    document.getElementById("theme-css").setAttribute("href", themePath+theme+".css");
 }
 
 function changeStyle() {
-    let currentStyle = document.getElementById("theme-css").getAttribute("href");
+    const currentStyle = document.getElementById("theme-css").getAttribute("href");
+    const currentPage = window.location.pathname.split("/").pop();
+    let themePath = "../css/themes/";
+    if (currentPage === "index.html") themePath = "css/themes/";
     for (let i = 0; i < styles.length; i++) {
-        if (currentStyle === "../css/themes/"+styles[i]+".css" && i === styles.length-1) {
-            setStyle(styles[0]);
+
+        if (currentStyle === themePath+styles[i]+".css" && i === styles.length-1) {
+            setStyle(styles[0], themePath);
             break;
         }
-        if (currentStyle === "../css/themes/"+styles[i]+".css") {
-            setStyle(styles[i+1]);
+        if (currentStyle === themePath+styles[i]+".css") {
+            setStyle(styles[i+1], themePath);
             break;
         }
     }
