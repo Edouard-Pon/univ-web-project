@@ -8,7 +8,7 @@ main {
 .page-title {
     font-size: 2rem;
     margin: 1.4rem 3rem 1.4rem 3rem;
-    text-decoration: underline #bbbbbb ;
+    text-decoration: underline #bbbbbb;
     text-underline-position: under;
     text-decoration-thickness: .35rem;
 }

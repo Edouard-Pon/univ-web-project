@@ -1,0 +1,21 @@
+:root {
+    background-color: #d9d9d9;
+}
+
+main, .sub-content, footer, .header-nav, #scrollToTop, #changePageStyleBtn, .btn {
+    background-color: darkgrey;
+}
+
+.page-title {
+    text-decoration: underline #bbbbbb;
+    text-underline-position: under;
+    text-decoration-thickness: .35rem;
+}
+
+.content, form input, form textarea {
+    background-color: #bbbbbb;
+}
+
+.header-nav li a:hover, #scrollToTop:hover, #changePageStyleBtn:hover, .btn:hover {
+    background-color: firebrick;
+}
