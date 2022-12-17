@@ -66,3 +66,9 @@
     background-color: #bbbbbb;
     font-weight: 300;
 }
+
+@media screen and (max-width: 960px) {
+    #changePageStyleBtn {
+        font-size: .8rem;
+    }
+}

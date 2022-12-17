@@ -33,3 +33,20 @@ main {
     background-color: darkgrey;
     border-radius: .85rem;
 }
+
+@media screen and (max-width: 960px) {
+    main {
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .content {
+        padding: .8rem;
+        border-radius: 0;
+    }
+
+    .page-title {
+        font-size: 1.7rem;
+    }
+}
