@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="Feedback page"
+    <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Us</title>
     <link rel="icon" href="../img/favicon-logo.ico">
     <script defer src="../js/scrollToTop.js"></script>
     <script defer src="../js/changeStyle.js"></script>
+    <script defer src="../js/showMenu.js"></script>
     <link id="main-css" rel="stylesheet" href="../css/main.css">
     <link id="form-css" rel="stylesheet" href="../css/form.css">
     <link id="theme-css" rel="stylesheet" href="../css/themes/theme-alpha.css">
@@ -16,8 +17,11 @@
 <body>
 <header>
     <nav class="header-nav">
-        <a class="header-title" href="../index.html"><img src="../img/logo.png" alt="Our logo"></a>
-        <ul>
+        <div>
+            <a class="header-title" href="../index.html"><img src="../img/logo.png" alt="Our logo"></a>
+            <button onclick="showMenu()" id="phoneMenu" title="Navigation menu">MENU</button>
+        </div>
+        <ul id="navMenu">
             <li><a href="countries.html">Countries</a></li>
             <li><a href="our-choice.html">Our Choice</a></li>
             <li><a href="about-us.html">About Us</a></li>

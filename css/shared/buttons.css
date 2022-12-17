@@ -54,3 +54,15 @@
     background-color: firebrick;
     color: white;
 }
+
+#phoneMenu {
+    border: none;
+    border-radius: .25rem;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    background-color: #bbbbbb;
+    font-weight: 300;
+}
