@@ -17,6 +17,6 @@ main, .sub-content, footer, .header-nav, #scrollToTop, #changePageStyleBtn, .btn
     background-color: #C8B88A;
 }
 
-.header-nav li a:hover, #scrollToTop:hover, #changePageStyleBtn:hover, .btn:hover {
+.header-nav li a:hover, #scrollToTop:hover, #changePageStyleBtn:hover, .btn:hover, footer a:hover {
     background-color: #476930;
 }

@@ -11,3 +11,7 @@
     font-size: 1rem;
     text-indent: 1.25rem;
 }
+
+.sub-content li {
+    list-style: none;
+}
