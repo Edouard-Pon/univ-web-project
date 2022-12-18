@@ -1,0 +1,22 @@
+:root {
+    background-color: #F77F00;
+    background-image: url("../../img/delta-bg.jpeg");
+}
+
+main, .sub-content, footer, .header-nav, #scrollToTop, #changePageStyleBtn, .btn {
+    background-color:#C78283;
+}
+
+.page-title {
+    text-decoration: underline #2b2d42;
+    text-underline-position: under;
+    text-decoration-thickness: .35rem;
+}
+
+.content, form input, form textarea {
+    background-color: #E4C2D4;
+}
+
+.header-nav li a:hover, #scrollToTop:hover, #changePageStyleBtn:hover, .btn:hover, footer a:hover {
+    background-color: #A082B3;
+}

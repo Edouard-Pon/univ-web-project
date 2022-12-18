@@ -1,4 +1,4 @@
-const styles = ["theme-alpha", "theme-beta"]
+const styles = ["theme-alpha", "theme-beta", "theme-gamma", "theme-delta"]
 
 function setStyle(theme, themePath) {
     document.getElementById("theme-css").setAttribute("href", themePath+theme+".css");

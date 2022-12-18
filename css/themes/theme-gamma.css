@@ -1,0 +1,28 @@
+:root {
+    background-color: #7E7F9A;
+    background-image: url("../../img/gamma-bg.jpeg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+main, .sub-content, footer, .header-nav, #scrollToTop, #changePageStyleBtn, .btn {
+    background-color: #7E7F9A;
+}
+
+.page-title {
+    text-decoration: underline #2b2d42;
+    text-underline-position: under;
+    text-decoration-thickness: .35rem;
+}
+
+.content, form input, form textarea {
+    background-color: #2b2d42;
+}
+
+.content {
+    color: white;
+}
+
+.header-nav li a:hover, #scrollToTop:hover, #changePageStyleBtn:hover, .btn:hover, footer a:hover {
+    background-color: #7E7F9A;
+}
