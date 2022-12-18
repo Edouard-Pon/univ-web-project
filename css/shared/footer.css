@@ -32,20 +32,20 @@ footer a:hover {
         width: 100%;
         border-radius: 0;
         margin-bottom: 0;
-        font-size: .8rem;
+        font-size: 1rem;
         flex-direction: column-reverse;
     }
 
     footer a {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
-    footer .phone-menu {
-        display: block;
+    footer div {
+        display: flex;
+        justify-content: center;
         width: 100%;
-        grid-template-columns: 100%;
-        background-color: #bbbbbb;
-        border-radius: .8rem;
-        margin-bottom: .4rem;
+        margin-bottom: .8rem;
+        border-bottom: .4rem solid #bbbbbb;
+        padding-bottom: .4rem;
     }
 }
