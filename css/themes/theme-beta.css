@@ -1,6 +1,8 @@
 :root {
     background-color: #C8B88A;
     background-image: url("../../img/beta-bg.webp");
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 main, .sub-content, footer, .header-nav, #scrollToTop, #changePageStyleBtn, .btn {
