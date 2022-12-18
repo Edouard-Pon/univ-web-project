@@ -1,6 +1,8 @@
 :root {
     background-color: #F77F00;
     background-image: url("../../img/delta-bg.jpeg");
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 main, .sub-content, footer, .header-nav, #scrollToTop, #changePageStyleBtn, .btn {
