@@ -42,3 +42,9 @@ form input:focus, form textarea:focus {
 .btn {
     margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 960px) {
+    .sub-content {
+        width: 100%;
+    }
+}
