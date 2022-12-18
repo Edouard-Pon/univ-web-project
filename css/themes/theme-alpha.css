@@ -19,3 +19,10 @@ main, .sub-content, footer, .header-nav, #scrollToTop, #changePageStyleBtn, .btn
 .header-nav li a:hover, #scrollToTop:hover, #changePageStyleBtn:hover, .btn:hover, footer a:hover {
     background-color: firebrick;
 }
+
+@media screen and (max-width: 960px) {
+    #scrollToTop {
+        color: white;
+        background-color: firebrick;
+    }
+}

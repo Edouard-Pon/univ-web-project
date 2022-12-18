@@ -27,6 +27,28 @@ footer a:hover {
     color: white;
 }
 
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-info h3 {
+    margin-left: 1rem;
+}
+
+.footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 @media screen and (max-width: 960px) {
     footer {
         width: 100%;
@@ -40,7 +62,7 @@ footer a:hover {
         font-size: 1rem;
     }
 
-    footer div {
+    .footer-nav {
         display: flex;
         justify-content: center;
         width: 100%;
